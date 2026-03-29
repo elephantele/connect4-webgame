@@ -155,7 +155,9 @@ function placePiece(tileId) {
 
     currColumns[c] = r - 1;
 
-    if (checkWinner()) return;
+    if (checkWinner()){
+        return;
+    } 
 
     currentPlayer = (currentPlayer === "Red") ? "Yellow" : "Red";
     updateTurnDisplay();
@@ -173,7 +175,7 @@ function highlightTiles(tiles) {
 }
 
 // winner check
-function checkWinner() {
+function checkWinner(sim = false) {
     // Horizontal →
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns - 3; c++) {
@@ -194,6 +196,7 @@ function checkWinner() {
             }
         }
     }
+
 
     // vertical ↓
     for(let c = 0; c < columns; c++){
