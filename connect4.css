@@ -130,6 +130,11 @@ body {
     background: #d62828 !important;
 }
 
+/*hidden*/
+.hidden{
+display:none;
+}
+
 .yellow-piece {
     background: #fcbf49 !important;
 }
