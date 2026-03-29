@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="connect4.css">
+</head>
+<body>
+
+    <div id="welcome">
+        <h1>Connect Four</h1>
+        <button id="playBtn">Play</button>
+    </div>
+
+    <div id="setup" class="hidden">
+        <h2>Choose Your Color</h2>
+        <button class="color-btn red" data-color="Red">Red</button>
+        <button class="color-btn yellow" data-color="Yellow">Yellow</button>
+    </div>
+
+    <div id="game" class="hidden">
+        <h2 id="turnDisplay"></h2>
+        <div id="board"></div>
+        <h2 id="winner"></h2>
+
+        <!-- NEW: Play Again button -->
+        <button id="restartBtn" class="hidden">Play Again</button>
+    </div>
+
+    <script src="connect4.js" defer></script>
+</body>
+</html>
 
