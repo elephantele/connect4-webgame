@@ -6,6 +6,11 @@ Why this was made:
 
 I created this project to challenge myself and improve my understanding of how interactive web applications work. I wanted to build something fun, visual, and hands on that was similar to the games that you would find in an arcade. This program was a mix of UI design, game logic, event handling, DOM manipulation, and problem-solving.  As I worked through the project, I realized how many different skills go into even a simple game. I had to design a clean user interface, structure the HTML so the screens could switch smoothly, and style everything in a way that felt modern and consistent. On the programming side, I had to think carefully about how to represent the board, how to track turns, how to detect wins in multiple directions, and how to make the computer take its own moves. It wasn’t just about writing code and thinking about the planning, testing, and adjusting process as I coded until the program worked as I had intended.
 
+Additonal features: More fun than a regular game of connect four! ;)
+-Being able to choose color
+- highlight area once player has won
+ - computer planned moves
+
 What I struggled with:
 
 One of the biggest challenges I faced while building this project was making sure that the program was able to be able to check correctly if the user had won. When I tested my code multiple times, the computer would automatically wouldn't let the user put their pieces. I was confused what was the main leading cause why my program was printing a blank screen and nothing would work. Small errors that I had in my code as linking the JavaScript fileincorrectly or having parentheses issues in my code, that was causing a break in my code as unintended. The platform that I used was useful as it helped me debug my code and being able to use those hints was helpful to fix the issues.  Being able to detect who had won, especially when the win was horizontal. Imagining what the grid would look like helped me solve the error of the out of bounds as well as making sure that the loops were working correctly with the right positions.
