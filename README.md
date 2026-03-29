@@ -14,8 +14,8 @@ What I learned:
 
 When I built this project, I learned how each button should lead to what. I was having issues in the begining because my buttons were clickable but wouldn't lead to the next page of the game. I learned that my code was completely ignoring the code, thus giving me many errors. This helped me improve my debugging skills throughout my journey of building this program.
 
-problem-solving
-iteration and fixing loops
-chunking my code into smaller steps
-game logic
-UI design
+- problem-solving
+- iteration and fixing loops
+- chunking my code into smaller steps
+- game logic
+- UI design
